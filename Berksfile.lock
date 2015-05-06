@@ -1,0 +1,9 @@
+DEPENDENCIES
+  pritunl
+    path: .
+    metadata: true
+
+GRAPH
+  apt-repo (0.1.1)
+  pritunl (0.1.0)
+    apt-repo (>= 0.0.0)
